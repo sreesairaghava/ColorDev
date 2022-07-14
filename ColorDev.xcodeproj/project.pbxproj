@@ -9,21 +9,55 @@
 /* Begin PBXBuildFile section */
 		9B48D362285AF7320049EC11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B48D361285AF7320049EC11 /* AppDelegate.swift */; };
 		9B48D364285AF7320049EC11 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B48D363285AF7320049EC11 /* SceneDelegate.swift */; };
-		9B48D366285AF7320049EC11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B48D365285AF7320049EC11 /* ViewController.swift */; };
-		9B48D369285AF7320049EC11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B48D367285AF7320049EC11 /* Main.storyboard */; };
+		9B48D366285AF7320049EC11 /* ConvertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B48D365285AF7320049EC11 /* ConvertViewController.swift */; };
 		9B48D36B285AF7330049EC11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B48D36A285AF7330049EC11 /* Assets.xcassets */; };
 		9B48D36E285AF7330049EC11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B48D36C285AF7330049EC11 /* LaunchScreen.storyboard */; };
+		9B48D37F285AF9480049EC11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B48D37E285AF9480049EC11 /* Main.storyboard */; };
+		9B48D382285AFDDB0049EC11 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B48D381285AFDDB0049EC11 /* HomeViewController.swift */; };
+		9B48D384285AFDE50049EC11 /* SavedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B48D383285AFDE50049EC11 /* SavedViewController.swift */; };
+		9B48D388285B52CD0049EC11 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B48D387285B52CD0049EC11 /* Color+Extensions.swift */; };
+		9B48D38B285B6F420049EC11 /* SavedColorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B48D389285B6F420049EC11 /* SavedColorTableViewCell.swift */; };
+		9B48D38C285B6F420049EC11 /* SavedColorTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B48D38A285B6F420049EC11 /* SavedColorTableViewCell.xib */; };
+		9B48D38E285B71580049EC11 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B48D38D285B71580049EC11 /* Protocols.swift */; };
+		9B48D390285B72B00049EC11 /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B48D38F285B72B00049EC11 /* UITableView+Extensions.swift */; };
+		9B48D392285B7EDF0049EC11 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B48D391285B7EDE0049EC11 /* UIView+Extensions.swift */; };
+		9B48D394285B88AA0049EC11 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B48D393285B88AA0049EC11 /* RealmManager.swift */; };
+		9B48D396285B8B1C0049EC11 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B48D395285B8B1C0049EC11 /* DataManager.swift */; };
+		9B9261AAE9850550A4D108E5 /* Pods_ColorDev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8B97A2CE90F4F1ECD491FDA /* Pods_ColorDev.framework */; };
+		9BF8DA49285C5B4300FE4513 /* Foundation+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF8DA48285C5B4300FE4513 /* Foundation+Extensions.swift */; };
+		9BF8DA4B285C612D00FE4513 /* ColorDevUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF8DA4A285C612D00FE4513 /* ColorDevUtils.swift */; };
+		9BF8DA4D285C89FD00FE4513 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF8DA4C285C89FD00FE4513 /* Box.swift */; };
+		9BF8DA4F285C8F3700FE4513 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF8DA4E285C8F3700FE4513 /* Color.swift */; };
+		9BF8DA52285C94FA00FE4513 /* ColorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF8DA51285C94FA00FE4513 /* ColorViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9B48D35E285AF7320049EC11 /* ColorDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B48D361285AF7320049EC11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B48D363285AF7320049EC11 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9B48D365285AF7320049EC11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9B48D368285AF7320049EC11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B48D365285AF7320049EC11 /* ConvertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertViewController.swift; sourceTree = "<group>"; };
 		9B48D36A285AF7330049EC11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B48D36D285AF7330049EC11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B48D36F285AF7330049EC11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B48D37E285AF9480049EC11 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9B48D381285AFDDB0049EC11 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9B48D383285AFDE50049EC11 /* SavedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedViewController.swift; sourceTree = "<group>"; };
+		9B48D387285B52CD0049EC11 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		9B48D389285B6F420049EC11 /* SavedColorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedColorTableViewCell.swift; sourceTree = "<group>"; };
+		9B48D38A285B6F420049EC11 /* SavedColorTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SavedColorTableViewCell.xib; sourceTree = "<group>"; };
+		9B48D38D285B71580049EC11 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		9B48D38F285B72B00049EC11 /* UITableView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
+		9B48D391285B7EDE0049EC11 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		9B48D393285B88AA0049EC11 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		9B48D395285B8B1C0049EC11 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		9BF8DA48285C5B4300FE4513 /* Foundation+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Foundation+Extensions.swift"; sourceTree = "<group>"; };
+		9BF8DA4A285C612D00FE4513 /* ColorDevUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDevUtils.swift; sourceTree = "<group>"; };
+		9BF8DA4C285C89FD00FE4513 /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
+		9BF8DA4E285C8F3700FE4513 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		9BF8DA51285C94FA00FE4513 /* ColorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewModel.swift; sourceTree = "<group>"; };
+		A8B97A2CE90F4F1ECD491FDA /* Pods_ColorDev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColorDev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC3AACA087971640EE2ED12D /* Pods-ColorDev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorDev.debug.xcconfig"; path = "Target Support Files/Pods-ColorDev/Pods-ColorDev.debug.xcconfig"; sourceTree = "<group>"; };
+		D262DB8D2C19143E78F1CD12 /* Pods-ColorDev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorDev.release.xcconfig"; path = "Target Support Files/Pods-ColorDev/Pods-ColorDev.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +65,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B9261AAE9850550A4D108E5 /* Pods_ColorDev.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5246D978A55F16D7E2FA8486 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8B97A2CE90F4F1ECD491FDA /* Pods_ColorDev.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9B48D355285AF7320049EC11 = {
 			isa = PBXGroup;
 			children = (
 				9B48D360285AF7320049EC11 /* ColorDev */,
 				9B48D35F285AF7320049EC11 /* Products */,
+				CA26DB7E7F4F4BBA4DDDB8A2 /* Pods */,
+				5246D978A55F16D7E2FA8486 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +101,127 @@
 		9B48D360285AF7320049EC11 /* ColorDev */ = {
 			isa = PBXGroup;
 			children = (
-				9B48D361285AF7320049EC11 /* AppDelegate.swift */,
-				9B48D363285AF7320049EC11 /* SceneDelegate.swift */,
-				9B48D365285AF7320049EC11 /* ViewController.swift */,
-				9B48D367285AF7320049EC11 /* Main.storyboard */,
-				9B48D36A285AF7330049EC11 /* Assets.xcassets */,
-				9B48D36C285AF7330049EC11 /* LaunchScreen.storyboard */,
-				9B48D36F285AF7330049EC11 /* Info.plist */,
+				9B48D377285AF7850049EC11 /* Utils */,
+				9B48D376285AF77A0049EC11 /* Extensions */,
+				9B48D375285AF7720049EC11 /* Code */,
+				9B48D37C285AF7FB0049EC11 /* Resources */,
+				9B48D37D285AF8200049EC11 /* Storybords */,
 			);
 			path = ColorDev;
+			sourceTree = "<group>";
+		};
+		9B48D375285AF7720049EC11 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				9BF8DA50285C94C100FE4513 /* ViewModels */,
+				9B48D37B285AF7B00049EC11 /* Views */,
+				9B48D37A285AF7A90049EC11 /* Services */,
+				9B48D379285AF79B0049EC11 /* Controllers */,
+				9B48D378285AF7940049EC11 /* Models */,
+				9B48D38D285B71580049EC11 /* Protocols.swift */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		9B48D376285AF77A0049EC11 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9B48D387285B52CD0049EC11 /* Color+Extensions.swift */,
+				9B48D38F285B72B00049EC11 /* UITableView+Extensions.swift */,
+				9B48D391285B7EDE0049EC11 /* UIView+Extensions.swift */,
+				9BF8DA48285C5B4300FE4513 /* Foundation+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9B48D377285AF7850049EC11 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9BF8DA4A285C612D00FE4513 /* ColorDevUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9B48D378285AF7940049EC11 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9BF8DA4E285C8F3700FE4513 /* Color.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9B48D379285AF79B0049EC11 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9B48D380285AFD7E0049EC11 /* SystemControllers */,
+				9B48D365285AF7320049EC11 /* ConvertViewController.swift */,
+				9B48D381285AFDDB0049EC11 /* HomeViewController.swift */,
+				9B48D383285AFDE50049EC11 /* SavedViewController.swift */,
+				9BF8DA4C285C89FD00FE4513 /* Box.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9B48D37A285AF7A90049EC11 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9B48D393285B88AA0049EC11 /* RealmManager.swift */,
+				9B48D395285B8B1C0049EC11 /* DataManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9B48D37B285AF7B00049EC11 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9B48D389285B6F420049EC11 /* SavedColorTableViewCell.swift */,
+				9B48D38A285B6F420049EC11 /* SavedColorTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9B48D37C285AF7FB0049EC11 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9B48D36A285AF7330049EC11 /* Assets.xcassets */,
+				9B48D36F285AF7330049EC11 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9B48D37D285AF8200049EC11 /* Storybords */ = {
+			isa = PBXGroup;
+			children = (
+				9B48D36C285AF7330049EC11 /* LaunchScreen.storyboard */,
+				9B48D37E285AF9480049EC11 /* Main.storyboard */,
+			);
+			path = Storybords;
+			sourceTree = "<group>";
+		};
+		9B48D380285AFD7E0049EC11 /* SystemControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9B48D361285AF7320049EC11 /* AppDelegate.swift */,
+				9B48D363285AF7320049EC11 /* SceneDelegate.swift */,
+			);
+			path = SystemControllers;
+			sourceTree = "<group>";
+		};
+		9BF8DA50285C94C100FE4513 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9BF8DA51285C94FA00FE4513 /* ColorViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CA26DB7E7F4F4BBA4DDDB8A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC3AACA087971640EE2ED12D /* Pods-ColorDev.debug.xcconfig */,
+				D262DB8D2C19143E78F1CD12 /* Pods-ColorDev.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +231,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B48D372285AF7330049EC11 /* Build configuration list for PBXNativeTarget "ColorDev" */;
 			buildPhases = (
+				6BAEC594444DECFE3775C640 /* [CP] Check Pods Manifest.lock */,
 				9B48D35A285AF7320049EC11 /* Sources */,
 				9B48D35B285AF7320049EC11 /* Frameworks */,
 				9B48D35C285AF7320049EC11 /* Resources */,
+				6B92ACEBDB62B14FC28BD8FD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,36 +284,85 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B48D37F285AF9480049EC11 /* Main.storyboard in Resources */,
+				9B48D38C285B6F420049EC11 /* SavedColorTableViewCell.xib in Resources */,
 				9B48D36E285AF7330049EC11 /* LaunchScreen.storyboard in Resources */,
 				9B48D36B285AF7330049EC11 /* Assets.xcassets in Resources */,
-				9B48D369285AF7320049EC11 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6B92ACEBDB62B14FC28BD8FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ColorDev/Pods-ColorDev-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ColorDev/Pods-ColorDev-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ColorDev/Pods-ColorDev-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BAEC594444DECFE3775C640 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ColorDev-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9B48D35A285AF7320049EC11 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B48D366285AF7320049EC11 /* ViewController.swift in Sources */,
+				9B48D390285B72B00049EC11 /* UITableView+Extensions.swift in Sources */,
+				9B48D396285B8B1C0049EC11 /* DataManager.swift in Sources */,
+				9B48D366285AF7320049EC11 /* ConvertViewController.swift in Sources */,
+				9B48D394285B88AA0049EC11 /* RealmManager.swift in Sources */,
+				9B48D392285B7EDF0049EC11 /* UIView+Extensions.swift in Sources */,
+				9BF8DA4F285C8F3700FE4513 /* Color.swift in Sources */,
+				9BF8DA49285C5B4300FE4513 /* Foundation+Extensions.swift in Sources */,
 				9B48D362285AF7320049EC11 /* AppDelegate.swift in Sources */,
+				9BF8DA4B285C612D00FE4513 /* ColorDevUtils.swift in Sources */,
+				9BF8DA52285C94FA00FE4513 /* ColorViewModel.swift in Sources */,
+				9B48D388285B52CD0049EC11 /* Color+Extensions.swift in Sources */,
+				9BF8DA4D285C89FD00FE4513 /* Box.swift in Sources */,
+				9B48D38B285B6F420049EC11 /* SavedColorTableViewCell.swift in Sources */,
 				9B48D364285AF7320049EC11 /* SceneDelegate.swift in Sources */,
+				9B48D384285AFDE50049EC11 /* SavedViewController.swift in Sources */,
+				9B48D382285AFDDB0049EC11 /* HomeViewController.swift in Sources */,
+				9B48D38E285B71580049EC11 /* Protocols.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9B48D367285AF7320049EC11 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9B48D368285AF7320049EC11 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9B48D36C285AF7330049EC11 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -216,7 +424,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +478,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,6 +490,7 @@
 		};
 		9B48D373285AF7330049EC11 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC3AACA087971640EE2ED12D /* Pods-ColorDev.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -289,7 +498,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7BPGJ9ZKFR;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ColorDev/Info.plist;
+				INFOPLIST_FILE = ColorDev/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -310,6 +519,7 @@
 		};
 		9B48D374285AF7330049EC11 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D262DB8D2C19143E78F1CD12 /* Pods-ColorDev.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -317,7 +527,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7BPGJ9ZKFR;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ColorDev/Info.plist;
+				INFOPLIST_FILE = ColorDev/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
